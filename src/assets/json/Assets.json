@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Hastek Indonesia",
+    "source": "src/assets/img/project/hastek-indonesia.png",
+    "category": "Websites",
+    "description": "PHP-based website utilizing GET parameters for dynamic navigation."
+  },
+  {
+    "title": "Maman Burger",
+    "source": "src/assets/img/project/maman-burger.png",
+    "category": "Websites",
+    "description": "React JS site featuring a product slider and food ordering system."
+  },
+  {
+    "title": "Pring Astula",
+    "source": "src/assets/img/project/pring-astula.png",
+    "category": "Websites",
+    "description": "PHP and Bootstrap 5 website designed for simplicity and rapid development."
+  },
+  {
+    "title": "Stick Chain",
+    "source": "src/assets/img/project/stick-chain.png",
+    "category": "Web-Application",
+    "description": "Web app enabling direct cryptocurrency game purchases without local currency conversion."
+  },
+  {
+    "title": "Wind Library",
+    "source": "src/assets/img/project/wind-library.png",
+    "category": "Web-Application",
+    "description": "PHP and MySQL web app offering full CRUD functionality for library data management."
+  },
+  {
+    "title": "Video Belajar",
+    "source": "src/assets/img/project/web-course.png",
+    "category": "Back-End",
+    "description": "React JS web application for managing educational videos with RESTful API operations."
+  },
+  {
+    "title": "Rawr Chat",
+    "source": "src/assets/img/project/rawr-chat.png",
+    "category": "Web-Application",
+    "description": "PHP chatbot integrated with Google's Gemini LLM API for intelligent, context-aware responses."
+  },
+  {
+    "title": "Flower Website",
+    "source": "src/assets/img/project/flower-web.png",
+    "category": "Web-Application",
+    "description": "E-commerce flower shop built with React JS and TypeScript, featuring a responsive UI."
+  },
+  {
+    "title": "Shoes Website",
+    "source": "src/assets/img/project/wilies-shoes.png",
+    "category": "Websites",
+    "description": "React JS shoe catalog with a product slider and WhatsApp API integration for customer inquiries."
+  },
+  {
+    "title": "Zoox Mobile Account",
+    "source": "src/assets/img/project/zoox-mobile.png",
+    "category": "Mobile-Application",
+    "description": "React Native mobile app providing basic user authentication features."
+  },
+  {
+    "title": "E Zot Web App",
+    "source": "src/assets/img/project/e-zot-web.png",
+    "category": "Web-Application",
+    "description": "Under-development LMS web application with a Golang backend for enhanced performance."
+  },
+  {
+    "title": "Flower Desktop App",
+    "source": "src/assets/img/project/flower-dekstop.png",
+    "category": "Desktop-Application",
+    "description": "C# .NET Framework desktop application for offline flower product management using MySQL."
+  }
+]

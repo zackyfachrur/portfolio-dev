@@ -1,0 +1,26 @@
+[
+    {
+        "source": "src/assets/img/certification/alibaba_certified.jpg"
+    },
+    {
+        "source": "src/assets/img/certification/cisco_javascript.jpg"
+    },
+    {
+        "source": "src/assets/img/certification/codepolitan_AJAX.png"
+    },
+    {
+        "source": "src/assets/img/certification/codepolitan_cek.jpg"
+    },
+    {
+        "source": "src/assets/img/certification/codepolitan_payment.jpg"
+    },
+    {
+        "source": "src/assets/img/certification/freeCode_FrontEnd.jpg"
+    },
+    {
+        "source": "src/assets/img/certification/freeCode_responsive.png"
+    },
+    {
+        "source": "src/assets/img/certification/hackathon_icp.jpg"
+    }
+]
