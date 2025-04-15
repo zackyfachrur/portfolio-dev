@@ -8,7 +8,7 @@ export default function FloatingImage({ src, button }: FloatingImageProps) {
         <img
           src={src}
           alt="Certification Images"
-          className="object-cover w-[45%] rounded-4xl border-8 border-green-800"
+          className="object-cover w-[45%] max-lg:w-[90%] rounded-4xl border-8 border-green-800"
           draggable={false}
         />
       </div>

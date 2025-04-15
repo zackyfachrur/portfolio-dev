@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>
       <Wave />
-      <footer className="flex justify-center flex-col items-center bg-green-900 h-[70vh]">
+      <footer className="flex justify-center flex-col items-center bg-green-900 h-[70vh] max-2xl:h-[50vh]">
         <div className="containers flex flex-col">
           <img src={Logo} alt="Logo Images" />
           <div className="flex gap-8 justify-between items-start">

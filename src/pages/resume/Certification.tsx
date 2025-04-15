@@ -11,10 +11,10 @@ export default function Certification() {
   };
 
   return (
-    <section className="flex justify-center pt-12">
+    <section className="flex justify-center pt-12 h-full">
       <div className="containers">
         <h2 className="text-4xl font-title mb-4">Certification</h2>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-4">
           {Certificate.map((content: CertificationProps, index) => (
             <>
               <div className="h-[50%]">
@@ -23,7 +23,7 @@ export default function Certification() {
                   src={content.source}
                   draggable={false}
                   alt="Certificate Images"
-                  className="cursor-pointer hover:opacity-80 w-[100%] h-[280px]"
+                  className="cursor-pointer hover:opacity-80 w-[100%] h-[280px] max-md:h-[150px] max-sm:h-[300px] max-2xl:h-[250px] max-xl:h-[220px]"
                   onClick={() => handleImageClick(index)}
                 />
               </div>
