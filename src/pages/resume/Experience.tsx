@@ -5,7 +5,7 @@ export default function Experience() {
     <section className="flex justify-center pt-32">
       <div className="containers">
         <h2 className="text-4xl font-title mb-4">Profesional Experience</h2>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-4">
           <Timeline
             company="Gunadarma University"
             timeline="October 2024 - Present"
