@@ -6,10 +6,10 @@ export default function Footer() {
   return (
     <>
       <Wave />
-      <footer className="flex justify-center flex-col items-center bg-green-900 h-[70vh] max-2xl:h-[50vh]">
+      <footer className="flex justify-center flex-col items-center bg-green-900 h-[70vh] max-lg:h-full max-lg:py-24 max-2xl:h-[50vh]">
         <div className="containers flex flex-col">
           <img src={Logo} alt="Logo Images" />
-          <div className="flex gap-8 justify-between items-start">
+          <div className="grid grid-cols-3 gap-8 justify-between items-start max-xl:grid-cols-2 max-lg:grid-cols-1">
             {/* List Wrapper */}
             <div>
               <Title>Feedback</Title>

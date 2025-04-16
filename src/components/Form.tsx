@@ -17,7 +17,7 @@ export default function Form() {
         className="bg-green-900 px-8 py-8  gap-4 flex flex-col rounded-2xl h-full"
       >
         <div className="flex flex-col gap-1">
-          <label htmlFor="name" className="font-title text-2xl">
+          <label htmlFor="name" className="font-title text-2xl max-lg:text-xl">
             Your Name
           </label>
           <input
@@ -31,7 +31,7 @@ export default function Form() {
           />
         </div>
         <div className="flex flex-col gap-1">
-          <label htmlFor="email" className="font-title text-2xl">
+          <label htmlFor="email" className="font-title text-2xl max-lg:text-xl">
             Your Email
           </label>
           <input
@@ -45,7 +45,7 @@ export default function Form() {
           />
         </div>
         <div className="flex flex-col gap-1">
-          <label htmlFor="messages" className="font-title text-2xl">
+          <label htmlFor="messages" className="font-title text-2xl max-lg:text-xl">
             Your Messages
           </label>
           <textarea
@@ -59,7 +59,7 @@ export default function Form() {
         </div>
         <button
           type="submit"
-          className="font-semibold bg-green-800 py-2 flex justify-center gap-2 hover:bg-green-700 cursor-pointer active:scale-95 rounded-lg"
+          className="font-semibold bg-green-800 py-2 flex justify-center gap-2 hover:bg-green-700 cursor-pointer active:scale-95 rounded-lg max-lg:text-sm"
         >
           Send Messages <i className="ri-send-plane-2-fill"></i>
         </button>
