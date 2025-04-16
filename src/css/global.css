@@ -121,7 +121,7 @@ body {
 /* Scrollbar */
 
 ::-webkit-scrollbar {
-  height: 8px;
+  height: 4px;
   width: 8px;
   background: lightgray;
 }

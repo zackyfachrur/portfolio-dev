@@ -15,7 +15,7 @@ export default function Hero() {
         className="swiper-transition"
         breakpoints={{
           0: {
-            slidesPerView: 2,
+            slidesPerView: 1.2,
             spaceBetween:50
           },
           800: {
