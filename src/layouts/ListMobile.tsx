@@ -18,27 +18,27 @@ export default function ListMobile() {
 
 function List() {
   return (
-    <ul className="absolute top-80 right-0 bg-green-800 px-8 py-8 flex flex-col gap-4 rounded-l-2xl">
+    <ul className="fixed bottom-0 w-full justify-between right-0 bg-green-800 px-8 py-8 flex flex-row">
       <li
-        className="hover:underline underline-none underline-offset-8 decoration-2 active:scale-95"
+        className="hover:underline underline-none underline-offset-8 decoration-2 active:scale-95 bg-green-700 py-2 px-4 rounded-xl"
         onClick={() => window.location.assign("/")}
       >
         <i className="ri-home-4-line"></i>
       </li>
       <li
-        className="hover:underline underline-none  underline-offset-8 decoration-2 active:scale-95"
+        className="hover:underline underline-none  underline-offset-8 decoration-2 active:scale-95 bg-green-700 py-2 px-4 rounded-xl"
         onClick={() => window.location.assign("/project")}
       >
         <i className="ri-keyboard-box-line"></i>
       </li>
       <li
-        className="hover:underline underline-none  underline-offset-8 decoration-2 active:scale-95"
+        className="hover:underline underline-none  underline-offset-8 decoration-2 active:scale-95 bg-green-700 py-2 px-4 rounded-xl"
         onClick={() => window.location.assign("/resume")}
       >
         <i className="ri-link-m"></i>
       </li>
       <li
-        className="hover:underline underline-none  underline-offset-8 decoration-2 active:scale-95"
+        className="hover:underline underline-none  underline-offset-8 decoration-2 active:scale-95 bg-green-700 py-2 px-4 rounded-xl"
         onClick={() => window.location.assign("/contact")}
       >
         <i className="ri-smartphone-line"></i>

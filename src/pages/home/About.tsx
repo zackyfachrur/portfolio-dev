@@ -4,7 +4,7 @@ import { Paragraph, Title } from "@/components/Text";
 
 export default function About() {
   return (
-    <section className="flex justify-center border-t-8 border-green-950 my-24 h-[60vh] max-md:h-[80vh]">
+    <section className="flex justify-center border-t-8 border-green-950 h-[60vh] max-md:h-[80vh] max-sm:h-[100vh] max-sm:pb-32 my-24">
       <div className="containers flex justify-between max-md:justify-center items-center max-md:flex-col-reverse max-md:gap-12">
         <div className="w-[50%] max-md:w-[100%]">
           <img

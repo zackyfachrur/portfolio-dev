@@ -24,10 +24,10 @@ export default function Introduction() {
   }, []);
 
   return (
-    <section className="flex justify-center items-center h-[70vh] max-md:h-[100vh] bg-green-900 bg-[url('@/assets/img/hero-pattern.png')]">
+    <section className="flex justify-center items-center h-[70vh] max-sm:h-[130vh] max-md:h-[100vh] bg-green-900 bg-[url('@/assets/img/hero-pattern.png')]">
       <div className="flex flex-row containers max-md:flex-col  justify-between items-center">
         <div className="w-[50%] max-md:w-[100%]">
-          {/* <h1 className="text-6xl font-bold font-title">Hi Everyone 👋,</h1> */}
+          <h1 className="text-3xl max-2xl:text-2xl max-xl:text-xl font-title">Hi Everyone 👋,</h1>
           <div className="h-[100px]">
             <h2 className="font-bold  italic text-3xl max-2xl:text-2xl max-xl:text-xl">I am a passionate</h2>
             <p className="font-title text-5xl max-2xl:text-4xl max-xl:text-3xl" ref={el} />

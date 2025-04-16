@@ -5,8 +5,10 @@ import Wave from "@/components/Wave";
 export default function Footer() {
   return (
     <>
-      <Wave />
-      <footer className="flex justify-center flex-col items-center bg-green-900 h-[70vh] max-lg:h-full max-lg:py-24 max-2xl:h-[50vh]">
+      <div className="h-full">
+        <Wave />
+      </div>
+      <footer className="flex justify-center flex-col items-center bg-green-900 h-[70vh] max-lg:h-full max-lg:py-24 max-2xl:h-[50vh] max-sm:mt-52">
         <div className="containers flex flex-col">
           <img src={Logo} alt="Logo Images" />
           <div className="grid grid-cols-3 gap-8 justify-between items-start max-xl:grid-cols-2 max-lg:grid-cols-1">
